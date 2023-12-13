@@ -1,0 +1,186 @@
+/**
+ * Lighten a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to lighten.
+ * @param {Number} $amount - The amount by which to lighten the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after lightening.
+ */
+/**
+ * Adjust the tone of a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to adjust the tone of.
+ * @param {Number} $amount - The amount by which to adjust the tone (default: 10%).
+ *
+ * @return {Color} - The resulting color after adjusting the tone.
+ */
+/**
+ * Darken a color by a specified amount.
+ *
+ * @param {Color} $color - The base color to darken.
+ * @param {Number} $amount - The amount by which to darken the color (default: 10%).
+ *
+ * @return {Color} - The resulting color after darkening.
+ */
+/**
+ * Mix two colors together by a specified amount.
+ *
+ * @param {Color} $color1 - The first color to mix.
+ * @param {Color} $color2 - The second color to mix.
+ * @param {Number} $amount - The amount by which to mix the colors (default: 50%).
+ *
+ * @return {Color} - The resulting color after mixing.
+ */
+:root {
+  --cr-quaternary: #d84727;
+  --cr-quaternary-light-2: #d94b2b;
+  --cr-quaternary-light-4: #da4e30;
+  --cr-quaternary-light-6: #da5234;
+  --cr-quaternary-light-8: #db5638;
+  --cr-quaternary-light-10: #dc593d;
+  --cr-quaternary-light-12: #dd5d41;
+  --cr-quaternary-light-14: #dd6145;
+  --cr-quaternary-light-16: #de644a;
+  --cr-quaternary-light-18: #df684e;
+  --cr-quaternary-light-20: #e06c52;
+  --cr-quaternary-light-22: #e16f57;
+  --cr-quaternary-light-24: #e1735b;
+  --cr-quaternary-light-26: #e2775f;
+  --cr-quaternary-light-28: #e37b63;
+  --cr-quaternary-light-30: #e47e68;
+  --cr-quaternary-light-32: #e4826c;
+  --cr-quaternary-light-34: #e58670;
+  --cr-quaternary-light-36: #e68975;
+  --cr-quaternary-light-38: #e78d79;
+  --cr-quaternary-light-40: #e8917d;
+  --cr-quaternary-light-42: #e89482;
+  --cr-quaternary-light-44: #e99886;
+  --cr-quaternary-light-46: #ea9c8a;
+  --cr-quaternary-light-48: #eb9f8f;
+  --cr-quaternary-light-50: #eca393;
+  --cr-quaternary-light-52: #eca797;
+  --cr-quaternary-light-54: #edaa9c;
+  --cr-quaternary-light-56: #eeaea0;
+  --cr-quaternary-light-58: #efb2a4;
+  --cr-quaternary-light-60: #efb5a9;
+  --cr-quaternary-light-62: #f0b9ad;
+  --cr-quaternary-light-64: #f1bdb1;
+  --cr-quaternary-light-66: #f2c0b6;
+  --cr-quaternary-light-68: #f3c4ba;
+  --cr-quaternary-light-70: #f3c8be;
+  --cr-quaternary-light-72: #f4cbc3;
+  --cr-quaternary-light-74: #f5cfc7;
+  --cr-quaternary-light-76: #f6d3cb;
+  --cr-quaternary-light-78: #f6d7cf;
+  --cr-quaternary-light-80: #f7dad4;
+  --cr-quaternary-light-82: #f8ded8;
+  --cr-quaternary-light-84: #f9e2dc;
+  --cr-quaternary-light-86: #fae5e1;
+  --cr-quaternary-light-88: #fae9e5;
+  --cr-quaternary-light-90: #fbede9;
+  --cr-quaternary-light-92: #fcf0ee;
+  --cr-quaternary-light-94: #fdf4f2;
+  --cr-quaternary-light-96: #fdf8f6;
+  --cr-quaternary-light-98: #fefbfb;
+  --cr-quaternary-light-100: white;
+  --cr-quaternary-tone-2: #d64829;
+  --cr-quaternary-tone-4: #d4492b;
+  --cr-quaternary-tone-6: #d34a2c;
+  --cr-quaternary-tone-8: #d14c2e;
+  --cr-quaternary-tone-10: #cf4d30;
+  --cr-quaternary-tone-12: #cd4e32;
+  --cr-quaternary-tone-14: #cc4f33;
+  --cr-quaternary-tone-16: #ca5035;
+  --cr-quaternary-tone-18: #c85137;
+  --cr-quaternary-tone-20: #c65239;
+  --cr-quaternary-tone-22: #c5543b;
+  --cr-quaternary-tone-24: #c3553c;
+  --cr-quaternary-tone-26: #c1563e;
+  --cr-quaternary-tone-28: #bf5740;
+  --cr-quaternary-tone-30: #be5842;
+  --cr-quaternary-tone-32: #bc5943;
+  --cr-quaternary-tone-34: #ba5a45;
+  --cr-quaternary-tone-36: #b85c47;
+  --cr-quaternary-tone-38: #b75d49;
+  --cr-quaternary-tone-40: #b55e4b;
+  --cr-quaternary-tone-42: #b35f4c;
+  --cr-quaternary-tone-44: #b1604e;
+  --cr-quaternary-tone-46: #b06150;
+  --cr-quaternary-tone-48: #ae6252;
+  --cr-quaternary-tone-50: #ac6454;
+  --cr-quaternary-tone-52: #aa6555;
+  --cr-quaternary-tone-54: #a86657;
+  --cr-quaternary-tone-56: #a76759;
+  --cr-quaternary-tone-58: #a5685b;
+  --cr-quaternary-tone-60: #a3695c;
+  --cr-quaternary-tone-62: #a16a5e;
+  --cr-quaternary-tone-64: #a06b60;
+  --cr-quaternary-tone-66: #9e6d62;
+  --cr-quaternary-tone-68: #9c6e64;
+  --cr-quaternary-tone-70: #9a6f65;
+  --cr-quaternary-tone-72: #997067;
+  --cr-quaternary-tone-74: #977169;
+  --cr-quaternary-tone-76: #95726b;
+  --cr-quaternary-tone-78: #93736c;
+  --cr-quaternary-tone-80: #92756e;
+  --cr-quaternary-tone-82: #907670;
+  --cr-quaternary-tone-84: #8e7772;
+  --cr-quaternary-tone-86: #8c7874;
+  --cr-quaternary-tone-88: #8b7975;
+  --cr-quaternary-tone-90: #897a77;
+  --cr-quaternary-tone-92: #877b79;
+  --cr-quaternary-tone-94: #857d7b;
+  --cr-quaternary-tone-96: #847e7c;
+  --cr-quaternary-tone-98: #827f7e;
+  --cr-quaternary-tone-100: gray;
+  --cr-quaternary-dark-2: #d44626;
+  --cr-quaternary-dark-4: #cf4425;
+  --cr-quaternary-dark-6: #cb4325;
+  --cr-quaternary-dark-8: #c74124;
+  --cr-quaternary-dark-10: #c24023;
+  --cr-quaternary-dark-12: #be3e22;
+  --cr-quaternary-dark-14: #ba3d22;
+  --cr-quaternary-dark-16: #b53c21;
+  --cr-quaternary-dark-18: #b13a20;
+  --cr-quaternary-dark-20: #ad391f;
+  --cr-quaternary-dark-22: #a8371e;
+  --cr-quaternary-dark-24: #a4361e;
+  --cr-quaternary-dark-26: #a0351d;
+  --cr-quaternary-dark-28: #9c331c;
+  --cr-quaternary-dark-30: #97321b;
+  --cr-quaternary-dark-32: #93301b;
+  --cr-quaternary-dark-34: #8f2f1a;
+  --cr-quaternary-dark-36: #8a2d19;
+  --cr-quaternary-dark-38: #862c18;
+  --cr-quaternary-dark-40: #822b17;
+  --cr-quaternary-dark-42: #7d2917;
+  --cr-quaternary-dark-44: #792816;
+  --cr-quaternary-dark-46: #752615;
+  --cr-quaternary-dark-48: #702514;
+  --cr-quaternary-dark-50: #6c2414;
+  --cr-quaternary-dark-52: #682213;
+  --cr-quaternary-dark-54: #632112;
+  --cr-quaternary-dark-56: #5f1f11;
+  --cr-quaternary-dark-58: #5b1e10;
+  --cr-quaternary-dark-60: #561c10;
+  --cr-quaternary-dark-62: #521b0f;
+  --cr-quaternary-dark-64: #4e1a0e;
+  --cr-quaternary-dark-66: #49180d;
+  --cr-quaternary-dark-68: #45170c;
+  --cr-quaternary-dark-70: #41150c;
+  --cr-quaternary-dark-72: #3c140b;
+  --cr-quaternary-dark-74: #38120a;
+  --cr-quaternary-dark-76: #341109;
+  --cr-quaternary-dark-78: #301009;
+  --cr-quaternary-dark-80: #2b0e08;
+  --cr-quaternary-dark-82: #270d07;
+  --cr-quaternary-dark-84: #230b06;
+  --cr-quaternary-dark-86: #1e0a05;
+  --cr-quaternary-dark-88: #1a0905;
+  --cr-quaternary-dark-90: #160704;
+  --cr-quaternary-dark-92: #110603;
+  --cr-quaternary-dark-94: #0d0402;
+  --cr-quaternary-dark-96: #090302;
+  --cr-quaternary-dark-98: #040101;
+  --cr-quaternary-dark-100: black;
+}

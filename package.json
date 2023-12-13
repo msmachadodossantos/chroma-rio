@@ -1,0 +1,33 @@
+{
+  "name": "chroma-rio",
+  "version": "1.0.0",
+  "description": "A personal tool for generating color palettes based on the RGB color wheel.",
+  "scripts": {
+    "gulp-watch": "gulp",
+    "bootstrap": "cd vendors/twbs/bootstrap/5.3.2 && npm i && npm run dist",
+    "gulp-dist": "npm i && gulp dist",
+    "build": "npm run bootstrap && npm run gulp-dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msmachadodossantos/chroma-rio.git"
+  },
+  "author": "Machado dos Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msmachadodossantos/chroma-rio/issues"
+  },
+  "homepage": "https://github.com/msmachadodossantos/chroma-rio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "prettier": "^3.1.0",
+    "sass": "^1.69.5",
+    "stylelint": "^15.10.0",
+    "stylelint-config-standard-scss": "^11.1.0",
+    "stylelint-prettier": "^4.1.0"
+  }
+}
