@@ -8,6 +8,7 @@ With a focus on flexibility and ease of use, **chroma-rio** is ideal for web dev
 
 Before using **chroma-rio**, ensure you have the following dependencies installed:
 
+- [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en) or [npm](https://www.npmjs.com/)
 - [Sass](https://sass-lang.com/)
 - [Gulp](https://gulpjs.com/)
