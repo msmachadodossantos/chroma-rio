@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- ## [Unreleased] -->
 
+## [1.1.0] - 2023-12-16
+
+### Added
+
+- $cr-brand and related files
+
+## [1.0.0] - 2023-12-13
+
+- We're live!
+
 <!--
 ## [0.0.0] - YYYY-MM-DD
 ### Added
