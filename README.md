@@ -65,7 +65,6 @@ Before integrating custom colors into your project, you need to decide which CSS
 - quinary-ten-variants.css
 - quinary-twenty-variants.css
 - quinary-fifty-variants.css
-- bootstrap-532.css
 - elevation.css
 
 ### Applying Colors to the Body
