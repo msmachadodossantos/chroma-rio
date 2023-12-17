@@ -26,7 +26,7 @@ To get started, follow these steps:
 
 ## Configuration
 
-To customize the color palette, modify the five primary colors in the `src/_variables.scss` file.
+To customize the color palette, modify the six primary colors in the `src/_variables.scss` file.
 
 ## Building
 
