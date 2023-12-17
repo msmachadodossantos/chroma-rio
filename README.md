@@ -33,7 +33,96 @@ To customize the color palette, modify the six primary colors in the `src/_varia
 Once you've configured your color palette, it's time to build the project. Run the following command:
 
 - `npm run build`
-
-This command not only compiles the Sass files but also build the included Bootstrap (v5.3.2) with the newly defined colors.
+- This command not only compiles the Sass files but also build the included Bootstrap (v5.3.2) with the newly defined colors.
 
 The resulting output can be found in the `dist` directory.
+
+## How to use it
+
+### Choosing CSS Files
+
+Before integrating custom colors into your project, you need to decide which CSS files you want to attach. The available options are:
+
+- rgb-wheel.css
+- rgb-wheel-ten-variants.css
+- rgb-wheel-twenty-variants.css
+- rgb-wheel-fifty-variants.css
+- brand-ten-variants.css
+- brand-twenty-variants.css
+- brand-fifty-variants.css
+- primary-ten-variants.css
+- primary-twenty-variants.css
+- primary-fifty-variants.css
+- secondary-ten-variants.css
+- secondary-twenty-variants.css
+- secondary-fifty-variants.css
+- tertiary-ten-variants.css
+- tertiary-twenty-variants.css
+- tertiary-fifty-variants.css
+- quaternary-ten-variants.css
+- quaternary-twenty-variants.css
+- quaternary-fifty-variants.css
+- quinary-ten-variants.css
+- quinary-twenty-variants.css
+- quinary-fifty-variants.css
+- bootstrap-532.css
+- elevation.css
+
+### Applying Colors to the Body
+
+Once you've made your selection, you can apply the chosen color to the background of the body element using the following CSS rule:
+
+```css
+body {
+  background-color: var(--cr-colorName-variation-quantity);
+}
+```
+
+Here's a breakdown of the placeholders within the CSS rule:
+
+- **colorName**: Choose from the following options:
+    - Any of the 12 colors in the RGB color wheel
+        - red
+        - orange
+        - yellow
+        - chartreuseGreen
+        - green
+        - springGreen
+        - cyan
+        - azure
+        - blue
+        - violet
+        - magenta
+        - rose
+    - brand
+    - primary
+    - secondary
+    - tertiary
+    - quaternary
+    - quinary
+- **variation**: Select from:
+    - light
+    - tone
+    - dark
+- **quantity**: An integer indicating the chosen variation of the color in the attached file. This should be between 0 and 100. Additionally, you can use steps of 2, 5, and 10 for more precise adjustments.
+
+### Elevation Colors
+
+For elevation colors, you have two modes:
+- Light Mode
+- Dark Mode
+
+These colors only have 6 steps (0 to 5). To apply them, use the following CSS rule:
+
+```css
+body {
+  background-color: var(--cr-elevation-mode-step);
+}
+```
+
+Replace placeholders accordingly:
+
+- **mode**: Choose from:
+    - light
+    - dark
+- **step**: An integer indicating the chosen step of elevation color (0 to 5).
