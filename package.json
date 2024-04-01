@@ -4,7 +4,7 @@
   "description": "A Sass tool for generating color palettes based on the RGB color wheel.",
   "scripts": {
     "gulp-watch": "gulp",
-    "bootstrap": "cd vendors/twbs/bootstrap/5.3.2 && npm i && npm run dist",
+    "bootstrap": "cd vendors/twbs/bootstrap/5.3.3 && npm i && npm run dist",
     "gulp-dist": "npm i && gulp dist",
     "build": "npm run bootstrap && npm run gulp-dist"
   },

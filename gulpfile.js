@@ -36,15 +36,22 @@ exports.core = series(cleanCoreStyle, coreStyle);
 
 /*  ---------------------------------------------------------------------------------------------------------------   */
 
-function copyBootstrap() {
+function copyBootstrap532() {
     return gulp.src('vendors/twbs/bootstrap/5.3.2/dist/**/*')
         .pipe(gulp.dest('dist/vendors/twbs/bootstrap/5.3.2'));
 }
 
 /*  ---------------------------------------------------------------------------------------------------------------   */
 
+function copyBootstrap533() {
+    return gulp.src('vendors/twbs/bootstrap/5.3.3/dist/**/*')
+        .pipe(gulp.dest('dist/vendors/twbs/bootstrap/5.3.3'));
+}
+
+/*  ---------------------------------------------------------------------------------------------------------------   */
+
 exports.default = function () {
-    watch(allSrc, series(cleanCoreStyle, coreStyle, copyBootstrap));
+    watch(allSrc, series(cleanCoreStyle, coreStyle, copyBootstrap532, copyBootstrap533));
 };
 
-exports.dist = series(cleanCoreStyle, coreStyle, copyBootstrap);
+exports.dist = series(cleanCoreStyle, coreStyle, copyBootstrap532, copyBootstrap533);
