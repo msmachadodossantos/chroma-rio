@@ -110,6 +110,7 @@ Here's a breakdown of the placeholders within the CSS rule:
   - tertiary
   - quaternary
   - quinary
+  - shadow
 - **variation**: Select from:
   - light
   - tone
