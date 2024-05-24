@@ -33,7 +33,7 @@ To customize the color palette, modify the six primary colors in the `src/_varia
 Once you've configured your color palette, it's time to build the project. Run the following command:
 
 - `npm run build`
-- This command not only compiles the Sass files but also build the included Bootstrap (v5.3.2) with the newly defined colors.
+- This command not only compiles the Sass files but also build the included Bootstrap (v5.3.2, and v5.3.3) with the newly defined colors.
 
 The resulting output can be found in the `dist` directory.
 
