@@ -1,16 +1,16 @@
 @import "mixins";
 
 // Ensure that this color palette is harmonious.
-$cr-brand: #38331c;
+$cr-brand: #002856;
 
-$cr-primary: #0037b8;
-$cr-secondary: #867b33;
-$cr-tertiary: #1c5341;
-$cr-quaternary: #d84727;
-$cr-quinary: #ef92f7;
+$cr-primary: #565600; // Complementary color
+$cr-secondary: #f06292; // Accent color #1
+$cr-tertiary: #9d81bd; // Accent color #2
+$cr-quaternary: #e0d7bd; // Highlight color
+$cr-quinary: #f0f8ff; // Background color
 
 // The base color
-$base-color: $cr-primary;
+$base-color: $cr-brand;
 
 // Black and white
 $cr-white: mixer($base-color, #fff, 1.12%); // 100 / 89 = 1.12
