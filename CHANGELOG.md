@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- ## [Unreleased] -->
 
+## [1.3.0] 2024-05-24
+
+### Added
+
+- Add shadow color
+
+## [1.2.0] - 2024-04-01
+
+### Added
+
+- Bootstrap v5.3.3
+
 ## [1.1.1] - 2023-12-17
 
 ### Changed
