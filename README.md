@@ -65,6 +65,9 @@ Before integrating custom colors into your project, you need to decide which CSS
 - quinary-ten-variants.css
 - quinary-twenty-variants.css
 - quinary-fifty-variants.css
+- shadow-ten-variants.css
+- shadow-twenty-variants.css
+- shadow-fifty-variants.css
 - elevation.css
 
 ### Applying Colors to the Body
@@ -80,34 +83,35 @@ body {
 Here's a breakdown of the placeholders within the CSS rule:
 
 - **colorName**: Choose from the following options:
-    - Any of the 12 colors in the RGB color wheel
-        - red
-        - orange
-        - yellow
-        - chartreuseGreen
-        - green
-        - springGreen
-        - cyan
-        - azure
-        - blue
-        - violet
-        - magenta
-        - rose
-    - brand
-    - primary
-    - secondary
-    - tertiary
-    - quaternary
-    - quinary
+  - Any of the 12 colors in the RGB color wheel
+    - red
+    - orange
+    - yellow
+    - chartreuseGreen
+    - green
+    - springGreen
+    - cyan
+    - azure
+    - blue
+    - violet
+    - magenta
+    - rose
+  - brand
+  - primary
+  - secondary
+  - tertiary
+  - quaternary
+  - quinary
 - **variation**: Select from:
-    - light
-    - tone
-    - dark
+  - light
+  - tone
+  - dark
 - **quantity**: An integer indicating the chosen variation of the color in the attached file. This should be between 0 and 100. Additionally, you can use steps of 2, 5, and 10 for more precise adjustments.
 
 ### Elevation Colors
 
 For elevation colors, you have two modes:
+
 - Light Mode
 - Dark Mode
 
@@ -122,6 +126,6 @@ body {
 Replace placeholders accordingly:
 
 - **mode**: Choose from:
-    - light
-    - dark
+  - light
+  - dark
 - **step**: An integer indicating the chosen step of elevation color (0 to 5).
