@@ -16,42 +16,37 @@ const coreStyleSrc = "src/**/*.scss";
 const coreStyleDist = "dist";
 
 function cleanCoreStyle() {
-    return gulp
-        .src(coreStyleDist, { allowEmpty: true, read: false })
-        .pipe(clean());
+  return gulp.src(coreStyleDist, { allowEmpty: true, read: false }).pipe(clean());
 }
 
 function coreStyle() {
-    return gulp
-        .src(coreStyleSrc, { allowEmpty: true })
-        .pipe(sass({ outputStyle: "expanded" }, "").on("error", sass.logError))
-        .pipe(dest(coreStyleDist))
-        .pipe(sass({ outputStyle: "compressed" }, "").on("error", sass.logError))
-        .pipe(rename({ extname: ".min.css" }))
-        .pipe(dest(coreStyleDist));
+  return gulp
+    .src(coreStyleSrc, { allowEmpty: true })
+    .pipe(sass({ outputStyle: "expanded" }, "").on("error", sass.logError))
+    .pipe(dest(coreStyleDist))
+    .pipe(sass({ outputStyle: "compressed" }, "").on("error", sass.logError))
+    .pipe(rename({ extname: ".min.css" }))
+    .pipe(dest(coreStyleDist));
 }
 
 exports.core = series(cleanCoreStyle, coreStyle);
 
-
 /*  ---------------------------------------------------------------------------------------------------------------   */
 
 function copyBootstrap532() {
-    return gulp.src('vendors/twbs/bootstrap/5.3.2/dist/**/*')
-        .pipe(gulp.dest('dist/vendors/twbs/bootstrap/5.3.2'));
+  return gulp.src("vendor/twbs/bootstrap/5.3.2/dist/**/*").pipe(gulp.dest("dist/vendor/twbs/bootstrap/5.3.2"));
 }
 
 /*  ---------------------------------------------------------------------------------------------------------------   */
 
 function copyBootstrap533() {
-    return gulp.src('vendors/twbs/bootstrap/5.3.3/dist/**/*')
-        .pipe(gulp.dest('dist/vendors/twbs/bootstrap/5.3.3'));
+  return gulp.src("vendor/twbs/bootstrap/5.3.3/dist/**/*").pipe(gulp.dest("dist/vendor/twbs/bootstrap/5.3.3"));
 }
 
 /*  ---------------------------------------------------------------------------------------------------------------   */
 
 exports.default = function () {
-    watch(allSrc, series(cleanCoreStyle, coreStyle, copyBootstrap532, copyBootstrap533));
+  watch(allSrc, series(cleanCoreStyle, coreStyle, copyBootstrap532, copyBootstrap533));
 };
 
 exports.dist = series(cleanCoreStyle, coreStyle, copyBootstrap532, copyBootstrap533);
