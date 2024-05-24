@@ -80,6 +80,14 @@ body {
 }
 ```
 
+The shadow color doesn't have a variation. Example:
+
+```css
+p {
+  color: var(--cr-shadow-quantity);
+}
+```
+
 Here's a breakdown of the placeholders within the CSS rule:
 
 - **colorName**: Choose from the following options:
