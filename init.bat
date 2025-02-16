@@ -7,6 +7,8 @@ IF NOT EXIST vendors\twbs (MKDIR vendors\twbs)
 IF NOT EXIST vendors\twbs\bootstrap (MKDIR vendors\twbs\bootstrap)
 IF NOT EXIST vendors\twbs\bootstrap\5.3.2 (MKDIR vendors\twbs\bootstrap\5.3.2)
 IF NOT EXIST vendors\twbs\bootstrap\5.3.3 (MKDIR vendors\twbs\bootstrap\5.3.3)
+IF NOT EXIST vendors\twbs\bootstrap-icons\ (MKDIR vendors\twbs\bootstrap-icons\)
+IF NOT EXIST vendors\twbs\bootstrap-icons\1.11.3 (MKDIR vendors\twbs\bootstrap-icons\1.11.3)
 
 IF NOT EXIST .editorconfig (TYPE NUL > .editorconfig)
 IF NOT EXIST .eslintrc (TYPE NUL > .eslintrc)
