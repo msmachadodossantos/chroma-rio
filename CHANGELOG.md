@@ -7,7 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- ## [Unreleased] -->
 
+## [1.5.0] - 2025-02-16
+
+### Added
+
+- Updated SCSS color variations to use a smaller step size (1), resulting in 100 variants per color, aligning with Material Design guidelines.
+  - brand-hundred-variants
+  - primary-hundred-variants
+  - secondary-hundred-variants
+  - tertiary-hundred-variants
+  - quaternary-hundred-variants
+  - quinary-hundred-variants
+  - rgb-wheel-hundred-variants
+
 ## [1.4.0] 2024-05-24
+
+### Changed
 
 - Rename the 'vendors' folder to 'vendor'
 
