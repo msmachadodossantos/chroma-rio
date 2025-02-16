@@ -47,27 +47,35 @@ Before integrating custom colors into your project, you need to decide which CSS
 - rgb-wheel-ten-variants.css
 - rgb-wheel-twenty-variants.css
 - rgb-wheel-fifty-variants.css
+- rgb-wheel-hundred-variants.css
 - brand-ten-variants.css
 - brand-twenty-variants.css
 - brand-fifty-variants.css
+- brand-hundred-variants.css
 - primary-ten-variants.css
 - primary-twenty-variants.css
 - primary-fifty-variants.css
+- primary-hundred-variants.css
 - secondary-ten-variants.css
 - secondary-twenty-variants.css
 - secondary-fifty-variants.css
+- secondary-hundred-variants.css
 - tertiary-ten-variants.css
 - tertiary-twenty-variants.css
 - tertiary-fifty-variants.css
+- tertiary-hundred-variants.css
 - quaternary-ten-variants.css
 - quaternary-twenty-variants.css
 - quaternary-fifty-variants.css
+- quaternary-hundred-variants.css
 - quinary-ten-variants.css
 - quinary-twenty-variants.css
 - quinary-fifty-variants.css
+- quinary-hundred-variants.css
 - shadow-ten-variants.css
 - shadow-twenty-variants.css
 - shadow-fifty-variants.css
+- shadow-hundred-variants.css
 - elevation.css
 
 ### Applying Colors to the Body
