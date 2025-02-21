@@ -1,0 +1,227 @@
+@import "variables";
+@import "bootstrap-533";
+
+$blue-100: lighten($cr-blue, 80%);
+$blue-200: lighten($cr-blue, 60%);
+$blue-300: lighten($cr-blue, 40%);
+$blue-400: lighten($cr-blue, 20%);
+$blue-500: $cr-blue;
+$blue-600: darken($cr-blue, 20%);
+$blue-700: darken($cr-blue, 40%);
+$blue-800: darken($cr-blue, 60%);
+$blue-900: darken($cr-blue, 80%);
+
+$indigo-100: lighten($cr-indigo, 80%);
+$indigo-200: lighten($cr-indigo, 60%);
+$indigo-300: lighten($cr-indigo, 40%);
+$indigo-400: lighten($cr-indigo, 20%);
+$indigo-500: $cr-indigo;
+$indigo-600: darken($cr-indigo, 20%);
+$indigo-700: darken($cr-indigo, 40%);
+$indigo-800: darken($cr-indigo, 60%);
+$indigo-900: darken($cr-indigo, 80%);
+
+$purple-100: lighten($cr-purple, 80%);
+$purple-200: lighten($cr-purple, 60%);
+$purple-300: lighten($cr-purple, 40%);
+$purple-400: lighten($cr-purple, 20%);
+$purple-500: $cr-purple;
+$purple-600: darken($cr-purple, 20%);
+$purple-700: darken($cr-purple, 40%);
+$purple-800: darken($cr-purple, 60%);
+$purple-900: darken($cr-purple, 80%);
+
+$pink-100: lighten($cr-pink, 80%);
+$pink-200: lighten($cr-pink, 60%);
+$pink-300: lighten($cr-pink, 40%);
+$pink-400: lighten($cr-pink, 20%);
+$pink-500: $cr-pink;
+$pink-600: darken($cr-pink, 20%);
+$pink-700: darken($cr-pink, 40%);
+$pink-800: darken($cr-pink, 60%);
+$pink-900: darken($cr-pink, 80%);
+
+$red-100: lighten($cr-red, 80%);
+$red-200: lighten($cr-red, 60%);
+$red-300: lighten($cr-red, 40%);
+$red-400: lighten($cr-red, 20%);
+$red-500: $cr-red;
+$red-600: darken($cr-red, 20%);
+$red-700: darken($cr-red, 40%);
+$red-800: darken($cr-red, 60%);
+$red-900: darken($cr-red, 80%);
+
+$orange-100: lighten($cr-orange, 80%);
+$orange-200: lighten($cr-orange, 60%);
+$orange-300: lighten($cr-orange, 40%);
+$orange-400: lighten($cr-orange, 20%);
+$orange-500: $cr-orange;
+$orange-600: darken($cr-orange, 20%);
+$orange-700: darken($cr-orange, 40%);
+$orange-800: darken($cr-orange, 60%);
+$orange-900: darken($cr-orange, 80%);
+
+$yellow-100: lighten($cr-yellow, 80%);
+$yellow-200: lighten($cr-yellow, 60%);
+$yellow-300: lighten($cr-yellow, 40%);
+$yellow-400: lighten($cr-yellow, 20%);
+$yellow-500: $cr-yellow;
+$yellow-600: darken($cr-yellow, 20%);
+$yellow-700: darken($cr-yellow, 40%);
+$yellow-800: darken($cr-yellow, 60%);
+$yellow-900: darken($cr-yellow, 80%);
+
+$green-100: lighten($cr-green, 80%);
+$green-200: lighten($cr-green, 60%);
+$green-300: lighten($cr-green, 40%);
+$green-400: lighten($cr-green, 20%);
+$green-500: $cr-green;
+$green-600: darken($cr-green, 20%);
+$green-700: darken($cr-green, 40%);
+$green-800: darken($cr-green, 60%);
+$green-900: darken($cr-green, 80%);
+
+$teal-100: lighten($cr-teal, 80%);
+$teal-200: lighten($cr-teal, 60%);
+$teal-300: lighten($cr-teal, 40%);
+$teal-400: lighten($cr-teal, 20%);
+$teal-500: $cr-teal;
+$teal-600: darken($cr-teal, 20%);
+$teal-700: darken($cr-teal, 40%);
+$teal-800: darken($cr-teal, 60%);
+$teal-900: darken($cr-teal, 80%);
+
+$cyan-100: lighten($cr-cyan, 80%);
+$cyan-200: lighten($cr-cyan, 60%);
+$cyan-300: lighten($cr-cyan, 40%);
+$cyan-400: lighten($cr-cyan, 20%);
+$cyan-500: $cr-cyan;
+$cyan-600: darken($cr-cyan, 20%);
+$cyan-700: darken($cr-cyan, 40%);
+$cyan-800: darken($cr-cyan, 60%);
+$cyan-900: darken($cr-cyan, 80%);
+
+$gray-100: lighten($cr-gray-500, 80%);
+$gray-200: lighten($cr-gray-500, 60%);
+$gray-300: lighten($cr-gray-500, 40%);
+$gray-400: lighten($cr-gray-500, 20%);
+$gray-500: $cr-gray-500;
+$gray-600: darken($cr-gray-500, 20%);
+$gray-700: darken($cr-gray-500, 40%);
+$gray-800: darken($cr-gray-500, 60%);
+$gray-900: darken($cr-gray-500, 80%);
+
+:root {
+  --bs-blue-100: #{$blue-100};
+  --bs-blue-200: #{$blue-200};
+  --bs-blue-300: #{$blue-300};
+  --bs-blue-400: #{$blue-400};
+  --bs-blue-500: #{$blue-500};
+  --bs-blue-600: #{$blue-600};
+  --bs-blue-700: #{$blue-700};
+  --bs-blue-800: #{$blue-800};
+  --bs-blue-900: #{$blue-900};
+
+  --bs-indigo-100: #{$indigo-100};
+  --bs-indigo-200: #{$indigo-200};
+  --bs-indigo-300: #{$indigo-300};
+  --bs-indigo-400: #{$indigo-400};
+  --bs-indigo-500: #{$indigo-500};
+  --bs-indigo-600: #{$indigo-600};
+  --bs-indigo-700: #{$indigo-700};
+  --bs-indigo-800: #{$indigo-800};
+  --bs-indigo-900: #{$indigo-900};
+
+  --bs-purple-100: #{$purple-100};
+  --bs-purple-200: #{$purple-200};
+  --bs-purple-300: #{$purple-300};
+  --bs-purple-400: #{$purple-400};
+  --bs-purple-500: #{$purple-500};
+  --bs-purple-600: #{$purple-600};
+  --bs-purple-700: #{$purple-700};
+  --bs-purple-800: #{$purple-800};
+  --bs-purple-900: #{$purple-900};
+
+  --bs-pink-100: #{$pink-100};
+  --bs-pink-200: #{$pink-200};
+  --bs-pink-300: #{$pink-300};
+  --bs-pink-400: #{$pink-400};
+  --bs-pink-500: #{$pink-500};
+  --bs-pink-600: #{$pink-600};
+  --bs-pink-700: #{$pink-700};
+  --bs-pink-800: #{$pink-800};
+  --bs-pink-900: #{$pink-900};
+
+  --bs-red-100: #{$red-100};
+  --bs-red-200: #{$red-200};
+  --bs-red-300: #{$red-300};
+  --bs-red-400: #{$red-400};
+  --bs-red-500: #{$red-500};
+  --bs-red-600: #{$red-600};
+  --bs-red-700: #{$red-700};
+  --bs-red-800: #{$red-800};
+  --bs-red-900: #{$red-900};
+
+  --bs-orange-100: #{$orange-100};
+  --bs-orange-200: #{$orange-200};
+  --bs-orange-300: #{$orange-300};
+  --bs-orange-400: #{$orange-400};
+  --bs-orange-500: #{$orange-500};
+  --bs-orange-600: #{$orange-600};
+  --bs-orange-700: #{$orange-700};
+  --bs-orange-800: #{$orange-800};
+  --bs-orange-900: #{$orange-900};
+
+  --bs-yellow-100: #{$yellow-100};
+  --bs-yellow-200: #{$yellow-200};
+  --bs-yellow-300: #{$yellow-300};
+  --bs-yellow-400: #{$yellow-400};
+  --bs-yellow-500: #{$yellow-500};
+  --bs-yellow-600: #{$yellow-600};
+  --bs-yellow-700: #{$yellow-700};
+  --bs-yellow-800: #{$yellow-800};
+  --bs-yellow-900: #{$yellow-900};
+
+  --bs-green-100: #{$green-100};
+  --bs-green-200: #{$green-200};
+  --bs-green-300: #{$green-300};
+  --bs-green-400: #{$green-400};
+  --bs-green-500: #{$green-500};
+  --bs-green-600: #{$green-600};
+  --bs-green-700: #{$green-700};
+  --bs-green-800: #{$green-800};
+  --bs-green-900: #{$green-900};
+
+  --bs-teal-100: #{$teal-100};
+  --bs-teal-200: #{$teal-200};
+  --bs-teal-300: #{$teal-300};
+  --bs-teal-400: #{$teal-400};
+  --bs-teal-500: #{$teal-500};
+  --bs-teal-600: #{$teal-600};
+  --bs-teal-700: #{$teal-700};
+  --bs-teal-800: #{$teal-800};
+  --bs-teal-900: #{$teal-900};
+
+  --bs-cyan-100: #{$cyan-100};
+  --bs-cyan-200: #{$cyan-200};
+  --bs-cyan-300: #{$cyan-300};
+  --bs-cyan-400: #{$cyan-400};
+  --bs-cyan-500: #{$cyan-500};
+  --bs-cyan-600: #{$cyan-600};
+  --bs-cyan-700: #{$cyan-700};
+  --bs-cyan-800: #{$cyan-800};
+  --bs-cyan-900: #{$cyan-900};
+
+  --bs-gray-100: #{$gray-100};
+  --bs-gray-200: #{$gray-200};
+  --bs-gray-300: #{$gray-300};
+  --bs-gray-400: #{$gray-400};
+  --bs-gray-500: #{$gray-500};
+  --bs-gray-600: #{$gray-600};
+  --bs-gray-700: #{$gray-700};
+  --bs-gray-800: #{$gray-800};
+  --bs-gray-900: #{$gray-900};
+
+  --bs-black: #000;
+  --bs-white: #fff;
+}
